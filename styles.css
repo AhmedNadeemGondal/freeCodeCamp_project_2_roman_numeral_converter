@@ -1,0 +1,83 @@
+body {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #334155;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 80%;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.input-card {
+  width: 100%;
+  background-color: #475569;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+label {
+  color: #e2e8f0;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 85%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #1e293b;
+  font-size: 0.9rem;
+}
+
+#convert-btn {
+  background-color: #38bdf8;
+  color: #1e293b;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#convert-btn:hover {
+  background-color: #0ea5e9;
+}
+
+#output {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #38bff857;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+#output.active {
+  color: #38bdf8;
+}
